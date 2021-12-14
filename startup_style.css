@@ -1,0 +1,124 @@
+body{
+    width: 98.9%;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-weight: bold;
+    color: black;
+
+}
+.style{
+    background-color: rgb(255, 207, 145);
+    display: flex;
+    justify-content: space-around;
+}
+h6{
+    color: orangered;
+}
+p{
+    color: black;
+    font-size: 1.235rem;
+}
+h1{
+    color: black;
+}
+#plan_area{
+    position: relative;
+    background-color: rgb(253, 132, 32);
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+#list_text{
+text-align: center;
+list-style: none;
+}
+.color{
+    color: rgb(121, 121, 121);
+    font-weight: lighter;
+}
+#card_center{
+    background-color: white;
+    border-width: thin;
+    padding: 5px;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: center !important;
+}
+.card-position{
+    position: absolute;
+    top: -110px;
+}
+#icons{
+    color: white;
+    word-spacing: 3px;
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+}
+footer p{
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#img1{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left:40px;
+}
+#img2{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+.back_images_area{
+    position: relative;
+    height: 500px;
+}
+#img3{
+    position: absolute;
+    z-index: 1;
+    top:60px;
+    right: 130px;
+}
+@media screen and (min-width:240px) and (max-width:780px) {
+    #images{
+       display: flex;
+      position: relative;
+    }  
+    #img3{
+      display: flex;
+      position: absolute;
+      z-index: 1;
+      left: 40px;
+      top:0 ;
+    }
+    #img2{
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+    }
+    #img1{
+        display: flex;
+        justify-items: center;
+        position: relative;
+        z-index: 3;
+        left: 0;
+    }
+}
